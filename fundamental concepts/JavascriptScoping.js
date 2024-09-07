@@ -1,0 +1,1 @@
+//https://www.freecodecamp.org/news/scope-in-javascript-global-vs-local-vs-block-scope/

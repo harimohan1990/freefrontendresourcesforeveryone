@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto search complete</title>
+    <style>
+        #search-bar {
+          width: 300px;
+          padding: 10px;
+        }
+    
+        #suggestions-container {
+          position: absolute;
+          width: 300px;
+          max-height: 150px;
+          overflow-y: auto;
+          border: 1px solid #ccc;
+          background-color: white;
+        }
+      </style>
+    
+</head>
+<body>
+    <input type="text" id="search-bar" placeholder="search here"/>
+    <div id="suggestions-container"></div>
+    <script src="./script.js"></script>
+</body>
+</html>
